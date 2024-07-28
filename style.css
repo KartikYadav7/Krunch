@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(197, 191, 191);
+}
+
+.logo {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.navbar {
+  font-size: 1.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding-left: 2rem;
+  color: white;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color:#0ef;
+}
+
+.img {
+  background-image: url("resources/main.jpg");
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+.para {
+  color: white;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ align-items: center;
+}
+.p-1{
+  margin: 6rem 2rem 4rem 2rem;
+  font-size: 4rem;
+}
+ .p-2 {
+  /* margin-top: 2rem; */
+  text-align: center;
+  width: 60vw;
+  font-size: 1.5rem;
+}
+
+.btn {
+  margin: 4rem 0 ;
+  height: fit-content;
+  display: flex;
+  gap: 30px;
+}
+
+.btn1 {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 4px;
+  color: white;
+  background-color:#0ef;
+  border: 2px solid aqua;
+ 
+}
+.btn1:hover{
+  background-color: gray;
+  border: 2px solid gray;
+}
+.mx{
+  margin-bottom: 4rem;
+}
+.px {
+  padding-top: 3rem;
+  margin-bottom: 4rem;
+}
+.middle{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+}
+
+.para4{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.para5{
+  font-size: 1.5rem;
+  font-style: italic;
+  color: gray;
+}
+.flex{
+  display: flex;
+  margin: 4rem;
+}
+#para3{
+  width: 50vw;
+  font-size: 1.4rem;
+  
+}
+
+hr{
+  margin: 2px auto;
+  border: 4px solid aqua;
+  border-radius: 50%;
+  width: 60%;
+}
+.image-2{
+  background-image: url('resources/img-2.jpg');
+  width: 20rem;
+ height: 20rem;
+ margin: 0 4rem;
+  background-size: contain;
+}
+
+.box{
+  margin:  2rem ; 
+  margin-bottom: 0;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.box-1 img{
+  background-size: cover;
+  width: 50vh;
+  height: 35vh;
+} 
+
+.box-1 img:hover{
+  cursor: pointer;
+}
+
+#para6{
+  font-size: 1.5rem;
+  color: gray;
+}
+.cen{
+  text-align: center;
+}
+
+.section-4{
+  background-image: url('resources/box.8.jpg');
+  background-size: cover;
+  height:60vh;
+}
+.para8{
+  color: rgb(8, 6, 6);
+  /* width: 80%; */
+  justify-content: center;
+margin: 2rem ;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#para9{
+  color: #0ef;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 6rem ;
+}
+
+/* section-5 */
+
+.services {
+  display:flex;
+  flex-wrap: wrap;
+}
+.service-1{
+  height: 15vw;
+  width: 28vw;
+  padding-left: 3rem;
+}
+
+.service-1 i{
+  font-size: 2rem;
+  margin: 0 0 .5rem 3rem;
+}
+
+
+.card ,.news{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+.card{
+  margin: .5rem;
+}
+.card-1{
+  padding: 15px;
+  text-align: center;
+
+}
+.section-8{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-1 img{
+  height: 20rem;
+  width: 16rem;
+  background-size: cover;
+}
+
+.card-1 h3,.news-1 h3{
+  font-weight: 600;
+  padding: 0.5rem;
+}
+.card-1 p,.news-1 p{
+  color: gray;
+  font-weight: 300;
+  padding-left: 0.5rem;
+}
+
+.news-1{
+  /* height:26rem; */
+  height: fit-content;
+  margin: 1rem 0;
+  width: 24rem;
+  padding: 1rem;
+}
+
+.news-1 img{
+  height: 16rem;
+  width: 24rem;
+  background-size: contain;
+}
+
+.news-1 a{
+  padding: .5rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.news-1 a:hover{
+  color: blueviolet;
+}
+
+.button{
+  width: fit-content;
+  padding: 10px 20px;
+  margin: 1rem auto;
+  height: fit-content;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  border: 2px solid #0ef;
+  border-radius: 4px;
+  color: rgb(9, 9, 9);
+  background-color: white;
+}
+.button:hover{
+  font-weight: 600;
+  background-color: #0ef;
+  color: white;
+}
+form{
+  margin-top: 2rem;
+}
+form div{
+  margin: .5rem auto ;
+  width: fit-content;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 4px solid #0ef;
+}
+form input{
+  padding: 8px 40px;
+  font: 18px;
+}
+
+
+footer{
+  color: white;
+  height: 70px;
+  background-color:black;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+footer i{
+  padding: 1rem;
+}
+footer i:hover{
+  color: blue;
+  font-weight: 400;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+.service-1 i {
+  font-size: 2rem;
+  margin: 0 0 1rem 0rem;
+}
+.services {
+  margin-top: 4rem;}
+  .service-1 {
+    height: 14vw;}
+
+
+/* Responsiveness */
+
